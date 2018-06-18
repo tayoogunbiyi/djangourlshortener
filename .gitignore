@@ -1,0 +1,14 @@
+*.sqlite3
+.vscode
+__pycache__
+node_modules
+.vscode
+*.pyc
+db.sqlite3
+
+package-lock.json
+
+#Heroku needs the migration files
+# Migrations
+#**/migrations/*
+#**/migrations/__init__.py
