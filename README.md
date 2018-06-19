@@ -1,4 +1,4 @@
-#Djangourlshortener
+# Djangourlshortener
 
 Django URL Shortener 
 # Project Setup
@@ -12,32 +12,32 @@ mkvirtualenv MY_VIRTUAL_ENV
 workon MY_VIRTUAL ENV
 ```
 
-# Install required packages:
+# Installing required packages:
 ```
 pip install -r requirements.txt
 ```
-#Install React Dependencies 
+# Installing React Dependencies 
 
 ```
 npm install
 ```
 
-#Make DB migrations :
+# Make DB migrations :
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-#Run React Application
+# Run React Application
 ```
 npm start 
 ```
 
-#Deployment
+# Deployment
 You would usually this application on a short domain name(e.g goo.gl ,bit.ly) for it to achieve it's purpose.
 
 
-#TODO
+# TODO
 Tests
 Configure creation of unique URLs on the front end 
 
