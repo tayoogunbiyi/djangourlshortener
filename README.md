@@ -1,6 +1,7 @@
 # Djangourlshortener
 
-Django URL Shortener 
+A simple django and react application illustrating how to shorten urls 
+
 # Project Setup
 
 # Setting up a virtual environment 
@@ -24,7 +25,7 @@ npm install
 
 # Make DB migrations :
 ```
-python manage.py makemigrations
+python manage.py makemigrations api
 python manage.py migrate
 ```
 
@@ -42,4 +43,5 @@ Tests
 
 Configure creation of unique URLs on the front end 
 
+Configure an error toast to be displayed when a URL that has already been shortened is supplied again to be shortened 
 
