@@ -35,7 +35,7 @@ npm start
 ```
 
 # Deployment
-You would usually this application on a short domain name(e.g goo.gl ,bit.ly) for it to achieve it's purpose.
+You would usually deploy this application on a short domain name(e.g goo.gl ,bit.ly) for it to achieve it's purpose.
 
 
 # TODO
