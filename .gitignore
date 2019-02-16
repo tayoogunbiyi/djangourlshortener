@@ -5,6 +5,7 @@ node_modules
 .vscode
 *.pyc
 db.sqlite3
-
+migrations/
 package-lock.json
 ENV/
+build/

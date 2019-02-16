@@ -30,6 +30,7 @@ python manage.py migrate
 ```
 
 # Run React Application
+
 ```
 npm start 
 ```
