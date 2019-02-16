@@ -20,8 +20,8 @@ class URL(models.Model):
         '''
         url_hash = urlsafe_b64encode(str(self.pk).encode())
         self.url_hash = url_hash.decode('ascii')
+        
 
-        self.save()
         
     def b64decode(self):
         '''
