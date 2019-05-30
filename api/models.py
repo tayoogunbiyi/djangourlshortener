@@ -27,7 +27,7 @@ class URL(models.Model):
         '''
         Returns the pk of the current model instance by decoding it's url hash
         '''
-        decoded_hash = urlsafe_b64decode(self.url_hash.decode('ascii'))
+        decoded_hash = urlsafe_b64decode(self.url_hash)
         return decoded_hash.decode('ascii')
 
         
