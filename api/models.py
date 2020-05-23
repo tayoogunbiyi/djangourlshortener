@@ -5,7 +5,7 @@ from django.utils import timezone
 
 
 class URL(models.Model):
-    original_url = models.URLField(unique=True)
+    original_url = models.URLField()
     created_at = models.DateTimeField(auto_now_add=True)
     url_hash = models.CharField(max_length=264,unique=True)
     custom_hash = models.BooleanField(default=False)
