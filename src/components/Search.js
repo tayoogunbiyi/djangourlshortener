@@ -45,9 +45,11 @@ class Search extends Component {
       .post(requestURL, {
         original_url: url,
       })
-      .then(function (response) {
-        toast.success("Shortened url succesfuly");
-        console.log("RESPONSE", response.data);
+      .then((response) => {
+        this.setState({
+          short_url: buildShortURL(response.data["url_hash"]),
+        });
+        toast.success("Shortened url succesfully");
       })
       .catch(function (error) {
         let errorMsg = "";
