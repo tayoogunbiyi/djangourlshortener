@@ -14,11 +14,9 @@ class URLList(generics.ListCreateAPIView):
     queryset = URL.objects.all()
     serializer_class = URLSerializer
 
-URLList = URLList.as_view()
 
 class URLDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = URL.objects.all()
     serializer_class = URLSerializer
 
-URLDetail = URLDetail.as_view()
 

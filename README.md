@@ -29,10 +29,18 @@ python manage.py makemigrations api
 python manage.py migrate
 ```
 
+# Run Django Backend
+
+```
+python manage.py runserver
+
+```
+
 # Run React Application
 
 ```
 npm start 
+
 ```
 
 # Deployment
