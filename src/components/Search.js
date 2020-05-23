@@ -40,16 +40,23 @@ class Search extends Component {
     this.setState({
       loading: true,
     });
-    const requestURL = `${API_URL}/urls`;
+    const requestURL = `${API_URL}/urls/create`;
     axios
       .post(requestURL, {
         original_url: url,
       })
       .then(function (response) {
-        console.log(response.data);
+        toast.success("Shortened url succesfuly");
+        console.log("RESPONSE", response.data);
       })
       .catch(function (error) {
-        toast.error(error.message || "An error occured.");
+        let errorMsg = "";
+        try {
+          errorMsg = error.response.data.original_url[0];
+        } catch (error) {
+          errorMsg = "An error occured";
+        }
+        toast.error(errorMsg || "An error occured.");
       });
 
     this.setState({
