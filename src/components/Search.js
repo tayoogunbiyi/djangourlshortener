@@ -40,9 +40,9 @@ class Search extends Component {
     this.setState({
       loading: true,
     });
-    var post_url = `${API_URL}/urls`;
+    const requestURL = `${API_URL}/urls`;
     axios
-      .post(post_url, {
+      .post(requestURL, {
         original_url: url,
       })
       .then(function (response) {
