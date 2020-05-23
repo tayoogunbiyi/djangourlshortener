@@ -1,4 +1,4 @@
-from .settings import TEMPLATES
+from .settings import TEMPLATES, DATABASES, INSTALLED_APPS, ROOT_URLCONF
 SECRET_KEY = "!!!SET DJANGO_SECRET_KEY!!!",
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#test-runner

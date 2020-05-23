@@ -9,3 +9,5 @@ migrations/
 package-lock.json
 ENV/
 build/
+.pytest_cache
+.coverage
