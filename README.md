@@ -29,6 +29,14 @@ python manage.py makemigrations api
 python manage.py migrate
 ```
 
+# Run tests
+
+```
+
+coverage run -m pytest
+
+```
+
 # Run Django Backend
 
 ```
