@@ -1,6 +1,6 @@
 Django==2.0.10
 django-cors-headers==3.3.0
-djangorestframework==3.8.2
+djangorestframework==3.9.1
 gunicorn==19.8.1
 pytz==2018.4
 whitenoise==3.3.1
